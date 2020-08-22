@@ -1,0 +1,16 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8889/eureka/,http://localhost:8890/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'routes'
