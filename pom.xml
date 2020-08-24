@@ -22,6 +22,7 @@
         <module>common</module>
         <module>feign-service</module>
         <module>zuul</module>
+        <module>config-service</module>
     </modules>
     <repositories>
         <repository>
